@@ -2,6 +2,9 @@
   display: block;
 }
 
-#celebrity {
+#kelly {
+  display: none;
+}
+#michelle {
   display: none;
 }

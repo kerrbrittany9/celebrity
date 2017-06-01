@@ -4,8 +4,11 @@ $(document).ready(function() {
     var pet = $(select#pet).val());
     var romantic_getaway =$(select#romantic_getaway).val());
 
-    if (pet) {
+    if (pet === turtle) {
+      $('#kelly').show();
 
+    if (pet === dog) {
+      $('#michelle').show();
     }
   });
 });
