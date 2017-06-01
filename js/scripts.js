@@ -12,5 +12,8 @@ $(document).ready(function() {
       $('#michelle').show();
       alert('Get ready for a hot date with Michelle');
     }
+      $("#michelle").click(function() {
+      $(this).remove();
+    });
   });
 });
