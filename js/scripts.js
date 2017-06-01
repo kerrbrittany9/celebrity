@@ -1,13 +1,13 @@
 $(document).ready(function() {
   $("form#soulmate").submit(function(event) {
     event.preventDefault();
-    var pet = $(select#pet).val());
-    var romantic_getaway =$(select#romantic_getaway).val());
+    var pet = $("select#pet").val();
+    var romantic_getaway = $("select#romantic_getaway").val();
 
-    if (pet === turtle) {
+// console.log('test')
+    if (pet === 'turtle' && romantic_getaway === 'beach') {
       $('#kelly').show();
-
-    if (pet === dog) {
+    } else {
       $('#michelle').show();
     }
   });
